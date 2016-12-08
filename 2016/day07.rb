@@ -32,7 +32,7 @@ input.each do |ip|
 
   next unless is_okay
 
-  is_okay = supernet do |p|
+  is_okay = supernet.any? do |p|
     check(p)
   end
 
