@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+ruby -rjson -e "puts ARGF.readlines.map{_1.split}.to_json" "${INPUT:-2}" \
+  | opa eval data.day2 -b . -I -f pretty \
+  | jq ".part_1, .part_2"
