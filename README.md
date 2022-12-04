@@ -65,7 +65,6 @@ Some solutions for the Advent of Code.
     - [`2016/day02-2.rb`](2016/day02-2.rb)
     - [`2016/day02-1.s`](2016/day02-1.s)
 - Day 1
-    - [`2016/day01.in`](2016/day01.in)
     - [`2016/day01-2.rb`](2016/day01-2.rb)
     - [`2016/day01-1.rb`](2016/day01-1.rb)
 ## 2015
