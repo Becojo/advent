@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ruby -rjson -e "puts ARGF.read.strip.to_json" "${1:-8}" \
+  | opa eval data.day8.part_1 -b . -I -f pretty
