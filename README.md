@@ -1,6 +1,9 @@
 Some solutions for the Advent of Code.
 
 ## 2022
+- Day 11
+    - [`2022/11-2.rb`](2022/11-2.rb)
+    - [`2022/11-1.rb`](2022/11-1.rb)
 - Day 10
     - [`2022/10.rb`](2022/10.rb)
 - Day 8
