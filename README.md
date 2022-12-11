@@ -83,6 +83,8 @@ Some solutions for the Advent of Code.
 ## 2015
 - Day 18
     - [`2015/day18.rb`](2015/day18.rb)
+- Day 11
+    - [`2015/day11.md`](2015/day11.md)
 - Day 10
     - [`2015/day10.hs`](2015/day10.hs)
 - Day 9
