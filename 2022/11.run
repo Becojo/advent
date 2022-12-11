@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+ruby 11-1.rb 11
+ruby 11-2.rb 11
