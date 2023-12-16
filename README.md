@@ -4,6 +4,10 @@ Some solutions for the Advent of Code.
 - Day 16
     - [`2023/16.rb`](2023/16.rb)
     - [`2023/16-2.rb`](2023/16-2.rb)
+- Day 15
+    - [`2023/15.rb`](2023/15.rb)
+- Day 4
+    - [`2023/4.rb`](2023/4.rb)
 - Day 2
     - [`2023/2.rb`](2023/2.rb)
 - Day 1
