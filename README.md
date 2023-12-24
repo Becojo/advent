@@ -1,6 +1,9 @@
 Some solutions for the Advent of Code.
 
 ## 2023
+- Day 24
+    - [`2023/24.py`](2023/24.py)
+    - [`2023/24-2.py`](2023/24-2.py)
 - Day 19
     - [`2023/19.rb`](2023/19.rb)
 - Day 16
