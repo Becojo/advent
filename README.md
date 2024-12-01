@@ -1,5 +1,8 @@
 Some solutions for the Advent of Code.
 
+## 2024
+- Day 1
+    - [`2024/1.rb`](2024/1.rb)
 ## 2023
 - Day 24
     - [`2023/24.py`](2023/24.py)
