@@ -1,6 +1,8 @@
 Some solutions for the Advent of Code.
 
 ## 2024
+- Day 8
+    - [`2024/8.rb`](2024/8.rb)
 - Day 7
     - [`2024/7.rb`](2024/7.rb)
 - Day 6
