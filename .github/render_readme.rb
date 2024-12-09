@@ -11,11 +11,12 @@ end.each do |year, files|
 
   files.map do |file|
     file[/(\d+)-?(\d+)?\./]
+    next unless $1
     day = $1.to_i
     part = $2&.to_i
 
     { day: day, part: part, path: file }
-  end.sort_by do |file|
+  end.compact.sort_by do |file|
     -file[:day]
   end.group_by do |file|
     file[:day]
