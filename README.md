@@ -17,8 +17,6 @@ Some solutions for the Advent of Code.
     - [`2024/2.rb`](2024/2.rb)
 - Day 1
     - [`2024/1.rb`](2024/1.rb)
-- Day 0
-    - [`2024/_.rb`](2024/_.rb)
 ## 2023
 - Day 24
     - [`2023/24.py`](2023/24.py)
