@@ -6,8 +6,8 @@ end
 def solve(lines, operators)
   lines.map do |(total, values)|
     ok = operators.repeated_permutation(values.size - 1).any? do |ops|
-      total == ops.zip(values.drop(1)).reduce(values.first) do |result, (x, op)|
-        result.send(x, op)
+      total == ops.zip(values.drop(1)).reduce(values.first) do |result, (op, x)|
+        result.send(op, x)
       end
     end
 

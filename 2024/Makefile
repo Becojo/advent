@@ -1,6 +1,6 @@
 today: day ?= $(shell date '+%-d')
-today: ext ?= rb
+ext ?= rb
 today:
-	touch $(day).$(ext)
+	cp -n _.$(ext) $(day).$(ext) || touch $(day).$(ext)
 	touch $(day)
 	touch $(day)-test
